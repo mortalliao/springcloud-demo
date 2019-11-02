@@ -1,0 +1,10 @@
+
+server:
+  port: 6800
+
+spring:
+  application:
+    name: ecloud-win.mortalliao.test
+
+  profiles:
+    active: dev

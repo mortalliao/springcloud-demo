@@ -1,0 +1,4 @@
+com\gzedu\ecloud\log\config\LogProperties.class
+com\gzedu\ecloud\log\annotation\Log.class
+com\gzedu\ecloud\log\interceptor\LogMethodInterceptor.class
+com\gzedu\ecloud\log\config\LogAutoConfiguration.class

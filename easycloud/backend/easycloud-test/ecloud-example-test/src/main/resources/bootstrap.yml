@@ -1,0 +1,10 @@
+
+server:
+  port: 6800
+
+spring:
+  application:
+    name: ecloud-test
+
+  profiles:
+    active: dev

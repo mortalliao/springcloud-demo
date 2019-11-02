@@ -1,0 +1,10 @@
+
+server:
+  port: 6801
+
+spring:
+  application:
+    name: easycloud-ag-cache
+
+  profiles:
+    active: dev

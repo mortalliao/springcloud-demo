@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="win.mortalliao.admin.mapper.AccountMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="win.mortalliao.admin.entity.Account">
+		<id column="user_id" property="userId" />
+	<result column="version" property="version" />
+		<result column="tenant_id" property="tenantId" />
+		<result column="current_num" property="currentNum" />
+		<result column="converted_num" property="convertedNum" />
+		<result column="total_num" property="totalNum" />
+		<result column="clear_time" property="clearTime" />
+		<result column="REMARK" property="remark" />
+		<result column="update_dt" property="updateDt" />
+		<result column="update_by" property="updateBy" />
+		<result column="created_dt" property="createdDt" />
+		<result column="created_by" property="createdBy" />
+		<result column="is_deleted" property="isDeleted" />
+	</resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+	version,
+        user_id AS userId, tenant_id AS tenantId, current_num AS currentNum, converted_num AS convertedNum, total_num AS totalNum, clear_time AS clearTime, REMARK AS remark, update_dt AS updateDt, update_by AS updateBy, created_dt AS createdDt, created_by AS createdBy, is_deleted AS isDeleted
+    </sql>
+
+</mapper>

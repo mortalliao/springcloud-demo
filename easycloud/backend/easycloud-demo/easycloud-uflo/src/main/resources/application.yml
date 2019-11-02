@@ -1,0 +1,10 @@
+
+server:
+  port: 7501
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/uflo?useUnicode=true&characterEncoding=UTF-8
+    driverClassName: com.mysql.jdbc.Driver
+    username: root
+    password: 123456

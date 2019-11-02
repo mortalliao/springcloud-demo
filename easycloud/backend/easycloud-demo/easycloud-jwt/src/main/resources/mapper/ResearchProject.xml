@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="win.mortalliao.jwt.mapper.ResearchProjectMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="win.mortalliao.jwt.entity.ResearchProject">
+        <id column="RESEARCH_ID" property="researchId"/>
+        <result column="PROJECT_ID" property="projectId"/>
+        <result column="RESEARCH_NAME" property="researchName"/>
+        <result column="HOURS" property="hours"/>
+        <result column="PLATE_CODE" property="plateCode"/>
+        <result column="RESEARCH_TYPE" property="researchType"/>
+        <result column="BELONG_DEPT" property="belongDept"/>
+        <result column="VISIT_CNT" property="visitCnt"/>
+        <result column="JOIN_TYPE" property="joinType"/>
+        <result column="START_DT" property="startDt"/>
+        <result column="END_DT" property="endDt"/>
+        <result column="REMARK" property="remark"/>
+        <result column="UPDATED_DT" property="updatedDt"/>
+        <result column="UPDATED_BY" property="updatedBy"/>
+        <result column="CREATED_DT" property="createdDt"/>
+        <result column="CREATED_BY" property="createdBy"/>
+        <result column="IS_DELETED" property="isDeleted"/>
+        <result column="VERSION" property="version"/>
+        <result column="LCMS_COURSE_ID" property="lcmsCourseId"/>
+        <result column="SYN_STATUS" property="synStatus"/>
+        <result column="EXPERTS_TEAM" property="expertsTeam"/>
+        <result column="ACT_ROLE_LIMIT" property="actRoleLimit"/>
+        <result column="IS_MAKE" property="isMake"/>
+        <result column="APP_ID" property="appId"/>
+        <result column="IS_JOIN_SCORE" property="isJoinScore"/>
+        <result column="SOURCE_TYPE" property="sourceType"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        RESEARCH_ID AS researchId, PROJECT_ID AS projectId, RESEARCH_NAME AS researchName, HOURS AS hours, PLATE_CODE AS plateCode, RESEARCH_TYPE AS researchType, BELONG_DEPT AS belongDept, VISIT_CNT AS visitCnt, JOIN_TYPE AS joinType, START_DT AS startDt, END_DT AS endDt, REMARK AS remark, UPDATED_DT AS updatedDt, UPDATED_BY AS updatedBy, CREATED_DT AS createdDt, CREATED_BY AS createdBy, IS_DELETED AS isDeleted, VERSION AS version, LCMS_COURSE_ID AS lcmsCourseId, SYN_STATUS AS synStatus, EXPERTS_TEAM AS expertsTeam, ACT_ROLE_LIMIT AS actRoleLimit, IS_MAKE AS isMake, APP_ID AS appId, IS_JOIN_SCORE AS isJoinScore, SOURCE_TYPE AS sourceType
+    </sql>
+
+</mapper>

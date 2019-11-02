@@ -1,0 +1,8 @@
+
+server:
+  port: 7500
+
+spring:
+  application:
+      name: easycloud-urule
+

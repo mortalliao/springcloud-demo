@@ -1,0 +1,24 @@
+
+server:
+  port: 6677
+
+jwt:
+  token-header: Authorization
+  expire: 3600
+  pri-key.path: jwt/pri.key
+  pub-key.path: jwt/pub.key
+
+client:
+  id: ${spring.application.name}
+  secret: 123456
+  token-header: client-token
+  expire: 3600
+  pri-key.path: client/pri.key
+  pub-key.path: client/pub.key
+
+spring:
+  application:
+    name: easycloud-auth-server
+
+  profiles:
+    active: dev

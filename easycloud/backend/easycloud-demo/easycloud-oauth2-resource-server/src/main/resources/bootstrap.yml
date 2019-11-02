@@ -1,0 +1,16 @@
+
+server:
+  port: 8001 # 端口
+
+spring:
+  application:
+      name: easycloud-manage # 应用名称（必须）
+
+  profiles:
+    active: dev
+
+#  cloud:
+#    config:
+#      profile: dev # 环境
+#      label: master # 版本分支
+#      uri: http://localhost:2222/ # 配置中心地址

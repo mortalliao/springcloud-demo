@@ -1,0 +1,7 @@
+
+spring:
+  application:
+    name: gzedu-server-dashboard-monitor
+
+  profiles:
+    active: dev

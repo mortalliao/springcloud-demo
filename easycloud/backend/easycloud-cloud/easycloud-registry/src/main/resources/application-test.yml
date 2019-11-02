@@ -1,0 +1,27 @@
+
+eureka:
+  instance:
+    hostname: localhost # 主机IP
+    lease-expiration-duration-in-seconds: 10000
+    #上一次收到client的心跳之后，等待下一次心跳的超时时间，在这个时间内若没收到下一次心跳，则将移除该instance。续约到期时间（默认90秒）
+    #lease-renewal-interval-in-seconds: 10000 # 续约更新时间间隔（默认30秒）
+  client:
+    # 是否向 Eureka 注册服务。该应用为服务注册中心，不需要自注册，设置为false
+    registerWithEureka: false
+    # 是否检索服务。该应用为服务注册中心，职责为注册和发现服务，无需检索服务，设置为false，为true时，可以启动，但报异常：Cannot execute request on any known server
+    fetchRegistry: false
+    healthcheck:
+      # 开启心跳检测
+      enabled: true
+    serviceUrl:
+      # 注册服务的地址
+      defaultZone: http://${eureka.instance.hostname:localhost}:${server.port:6666}/eureka/
+  server:
+    # 自我保护模式，短时间内多个服务发生故障，则进入保护模式，不会删除实例，设为false，关闭自我保护
+    enable-self-preservation: true
+    # 清理无效节点的时间间隔，默认60000毫秒，即60秒
+    eviction-interval-timer-in-ms: 10000
+
+management:
+  security:
+    enabled: false

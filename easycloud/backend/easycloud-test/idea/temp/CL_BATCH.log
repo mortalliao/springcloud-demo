@@ -1,0 +1,435 @@
+2017-11-24 09:50:50,531 ERROR o.s.b.b.PropertiesConfigurationFactory [restartedMain] Properties configuration failed validation
+2017-11-24 09:50:50,531 ERROR o.s.b.b.PropertiesConfigurationFactory [restartedMain] Field error in object 'spring.datasource.druid' on field 'filters': rejected value [stat,wall,log4j]; codes [methodInvocation.spring.datasource.druid.filters,methodInvocation.filters,methodInvocation.java.lang.String,methodInvocation]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [spring.datasource.druid.filters,filters]; arguments []; default message [filters]]; default message [Property 'filters' threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/log4j/Logger]
+2017-11-24 09:50:50,562 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Binding to target {
+	CreateTime:"2017-11-24 09:50:50",
+	ActiveCount:0,
+	PoolingCount:0,
+	CreateCount:0,
+	DestroyCount:0,
+	CloseCount:0,
+	ConnectCount:0,
+	Connections:[
+	]
+}
+
+[
+] failed:
+
+    Property: spring.datasource.druid.filters
+    Value: stat,wall,log4j
+    Reason: Property 'filters' threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/log4j/Logger
+
+
+Action:
+
+Update your application's configuration
+
+2017-11-24 09:51:39,296 ERROR o.s.b.b.PropertiesConfigurationFactory [restartedMain] Properties configuration failed validation
+2017-11-24 09:51:39,296 ERROR o.s.b.b.PropertiesConfigurationFactory [restartedMain] Field error in object 'spring.datasource.druid' on field 'filters': rejected value [stat,wall,log4j]; codes [methodInvocation.spring.datasource.druid.filters,methodInvocation.filters,methodInvocation.java.lang.String,methodInvocation]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [spring.datasource.druid.filters,filters]; arguments []; default message [filters]]; default message [Property 'filters' threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/log4j/Logger]
+2017-11-24 09:51:39,311 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Binding to target {
+	CreateTime:"2017-11-24 09:51:38",
+	ActiveCount:0,
+	PoolingCount:0,
+	CreateCount:0,
+	DestroyCount:0,
+	CloseCount:0,
+	ConnectCount:0,
+	Connections:[
+	]
+}
+
+[
+] failed:
+
+    Property: spring.datasource.druid.filters
+    Value: stat,wall,log4j
+    Reason: Property 'filters' threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/log4j/Logger
+
+
+Action:
+
+Update your application's configuration
+
+2017-11-24 10:06:58,400 ERROR o.s.b.b.PropertiesConfigurationFactory [restartedMain] Properties configuration failed validation
+2017-11-24 10:06:58,400 ERROR o.s.b.b.PropertiesConfigurationFactory [restartedMain] Field error in object 'spring.datasource.druid' on field 'filters': rejected value [stat,wall,log4j]; codes [methodInvocation.spring.datasource.druid.filters,methodInvocation.filters,methodInvocation.java.lang.String,methodInvocation]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [spring.datasource.druid.filters,filters]; arguments []; default message [filters]]; default message [Property 'filters' threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/log4j/Logger]
+2017-11-24 10:06:58,417 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Binding to target {
+	CreateTime:"2017-11-24 10:06:58",
+	ActiveCount:0,
+	PoolingCount:0,
+	CreateCount:0,
+	DestroyCount:0,
+	CloseCount:0,
+	ConnectCount:0,
+	Connections:[
+	]
+}
+
+[
+] failed:
+
+    Property: spring.datasource.druid.filters
+    Value: stat,wall,log4j
+    Reason: Property 'filters' threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/log4j/Logger
+
+
+Action:
+
+Update your application's configuration
+
+2017-11-24 10:14:54,048 INFO o.s.b.SpringApplication [restartedMain] The following profiles are active: dev
+2017-11-24 10:14:54,048 INFO o.s.c.s.AbstractApplicationContext [restartedMain] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@635dc183: startup date [Fri Nov 24 10:14:54 GMT+08:00 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6f0b1e0c
+2017-11-24 10:14:55,302 INFO o.s.c.c.s.GenericScope [restartedMain] BeanFactory id=3f2b3e90-078a-3265-a9fe-6bafacf979dc
+2017-11-24 10:14:55,317 INFO o.s.b.f.a.AutowiredAnnotationBeanPostProcessor [restartedMain] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-11-24 10:14:55,412 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$84f84165] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-24 10:14:55,512 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$b724e7a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-24 10:14:55,534 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a1124462] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-11-24 10:14:55,835 INFO o.x.Xnio [restartedMain] XNIO version 3.3.8.Final
+2017-11-24 10:14:55,835 INFO o.x.n.NioXnio [restartedMain] XNIO NIO Implementation Version 3.3.8.Final
+2017-11-24 10:14:55,866 WARN i.u.w.j.Bootstrap [restartedMain] UT026009: XNIO worker was not set on WebSocketDeploymentInfo, the default worker will be used
+2017-11-24 10:14:55,866 WARN i.u.w.j.Bootstrap [restartedMain] UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2017-11-24 10:14:55,882 INFO i.u.s.s.ServletContextImpl [restartedMain] Initializing Spring embedded WebApplicationContext
+2017-11-24 10:14:55,882 INFO o.s.b.c.e.EmbeddedWebApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1834 ms
+2017-11-24 10:14:56,182 INFO o.s.b.w.s.ServletRegistrationBean [restartedMain] Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-24 10:14:56,182 INFO o.s.b.w.s.ServletRegistrationBean [restartedMain] Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-11-24 10:14:56,182 INFO o.s.b.w.s.AbstractFilterRegistrationBean [restartedMain] Mapping filter: 'metricsFilter' to: [/*]
+2017-11-24 10:14:56,182 INFO o.s.b.w.s.AbstractFilterRegistrationBean [restartedMain] Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-24 10:14:56,182 INFO o.s.b.w.s.AbstractFilterRegistrationBean [restartedMain] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-24 10:14:56,182 INFO o.s.b.w.s.AbstractFilterRegistrationBean [restartedMain] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-24 10:14:56,182 INFO o.s.b.w.s.AbstractFilterRegistrationBean [restartedMain] Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-24 10:14:56,182 INFO o.s.b.w.s.AbstractFilterRegistrationBean [restartedMain] Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2017-11-24 10:14:56,182 INFO o.s.b.w.s.AbstractFilterRegistrationBean [restartedMain] Mapping filter: 'webStatFilter' to urls: [/*]
+2017-11-24 10:14:56,182 INFO o.s.b.w.s.AbstractFilterRegistrationBean [restartedMain] Mapping filter: 'applicationContextIdFilter' to: [/*]
+2017-11-24 10:14:58,015 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/test/test/123/{name1}/{name2}],methods=[GET]}" onto public com.gzedu.ecloud.common.result.Result com.gzedu.ecloud.test.controller.TestController.test(java.lang.String,java.lang.String)
+2017-11-24 10:14:58,015 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/test/test/{id}/delete],methods=[GET]}" onto public com.gzedu.ecloud.common.result.Result com.gzedu.ecloud.test.controller.TestController.physicalDelete(java.lang.Long)
+2017-11-24 10:14:58,015 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/test/test/{id}],methods=[PUT]}" onto public com.gzedu.ecloud.common.result.Result com.gzedu.ecloud.common.controller.BaseController.update(java.lang.Long,T)
+2017-11-24 10:14:58,015 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/test/test/{id}],methods=[DELETE]}" onto public com.gzedu.ecloud.common.result.Result com.gzedu.ecloud.common.controller.BaseController.delete(java.lang.Long)
+2017-11-24 10:14:58,015 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/test/test/],methods=[POST]}" onto public com.gzedu.ecloud.common.result.Result com.gzedu.ecloud.common.controller.BaseController.insert(T,org.springframework.validation.BindingResult)
+2017-11-24 10:14:58,015 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/test/test/{id}],methods=[GET]}" onto public com.gzedu.ecloud.common.result.Result com.gzedu.ecloud.common.controller.BaseController.select(java.lang.Long)
+2017-11-24 10:14:58,015 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/test/test/],methods=[GET]}" onto public com.gzedu.ecloud.common.result.Result com.gzedu.ecloud.common.controller.BaseController.page(java.lang.Integer,java.lang.Integer)
+2017-11-24 10:14:58,015 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/test/test/search],methods=[POST]}" onto public com.gzedu.ecloud.common.result.Result com.gzedu.ecloud.common.controller.BaseController.pageSearch(java.lang.Integer,java.lang.Integer,com.gzedu.ecloud.common.entity.PageSearch)
+2017-11-24 10:14:58,015 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2017-11-24 10:14:58,015 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2017-11-24 10:14:58,015 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2017-11-24 10:14:58,033 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-11-24 10:14:58,033 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-11-24 10:14:58,453 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2017-11-24 10:14:58,453 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-24 10:14:58,453 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2017-11-24 10:14:58,453 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-11-24 10:14:58,453 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-24 10:14:58,453 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-24 10:14:58,453 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2017-11-24 10:14:58,453 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2017-11-24 10:14:58,453 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2017-11-24 10:14:58,453 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-24 10:14:58,468 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2017-11-24 10:14:58,468 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-11-24 10:14:58,468 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-24 10:14:58,468 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-24 10:14:58,468 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2017-11-24 10:14:58,468 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2017-11-24 10:14:58,468 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-24 10:14:58,468 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2017-11-24 10:14:58,468 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-24 10:14:58,468 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2017-11-24 10:14:58,468 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2017-11-24 10:14:58,468 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-24 10:14:58,484 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-24 10:14:58,484 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-24 10:14:58,484 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2017-11-24 10:14:58,484 INFO o.s.w.s.h.AbstractHandlerMethodMapping$MappingRegistry [restartedMain] Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-11-24 10:14:58,637 INFO s.d.s.w.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2017-11-24 10:14:58,918 INFO o.s.w.s.m.m.a.RequestMappingHandlerAdapter [restartedMain] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@635dc183: startup date [Fri Nov 24 10:14:54 GMT+08:00 2017]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6f0b1e0c
+2017-11-24 10:14:58,969 INFO o.s.w.s.h.AbstractUrlHandlerMapping [restartedMain] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-24 10:14:58,969 INFO o.s.w.s.h.AbstractUrlHandlerMapping [restartedMain] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-24 10:14:58,985 INFO o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [restartedMain] Detected @ExceptionHandler methods in globalExceptionHandler
+2017-11-24 10:14:59,016 INFO o.s.w.s.h.AbstractUrlHandlerMapping [restartedMain] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-11-24 10:14:59,555 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2017-11-24 10:14:59,655 WARN c.n.c.s.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2017-11-24 10:14:59,671 INFO c.n.c.s.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-11-24 10:14:59,671 WARN c.n.c.s.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2017-11-24 10:14:59,671 INFO c.n.c.s.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2017-11-24 10:14:59,771 INFO o.s.j.e.MBeanExporter [restartedMain] Registering beans for JMX exposure on startup
+2017-11-24 10:14:59,787 INFO o.s.j.e.MBeanExporter [restartedMain] Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-11-24 10:14:59,787 INFO o.s.j.e.MBeanExporter [restartedMain] Bean with name 'environmentManager' has been autodetected for JMX exposure
+2017-11-24 10:14:59,787 INFO o.s.j.e.MBeanExporter [restartedMain] Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2017-11-24 10:14:59,787 INFO o.s.j.e.MBeanExporter [restartedMain] Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2017-11-24 10:14:59,787 INFO o.s.j.e.MBeanExporter [restartedMain] Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2017-11-24 10:14:59,787 INFO o.s.j.e.MBeanExporter [restartedMain] Bean with name 'refreshScope' has been autodetected for JMX exposure
+2017-11-24 10:14:59,787 INFO o.s.j.e.MBeanExporter [restartedMain] Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2017-11-24 10:14:59,802 INFO o.s.j.e.MBeanExporter [restartedMain] Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2017-11-24 10:14:59,818 INFO o.s.j.e.MBeanExporter [restartedMain] Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2017-11-24 10:14:59,818 INFO o.s.j.e.MBeanExporter [restartedMain] Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=635dc183,type=ConfigurationPropertiesRebinder]
+2017-11-24 10:14:59,834 INFO o.s.j.e.MBeanExporter [restartedMain] Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2017-11-24 10:14:59,836 INFO o.s.j.e.MBeanExporter [restartedMain] Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2017-11-24 10:14:59,837 INFO o.s.j.e.MBeanExporter [restartedMain] Registering beans for JMX exposure on startup
+2017-11-24 10:15:00,356 INFO o.s.c.s.DefaultLifecycleProcessor$LifecycleGroup [restartedMain] Starting beans in phase 0
+2017-11-24 10:15:00,356 INFO o.s.j.e.MBeanExporter [restartedMain] Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2017-11-24 10:15:00,356 INFO o.s.j.e.MBeanExporter [restartedMain] Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2017-11-24 10:15:00,371 INFO o.s.j.e.MBeanExporter [restartedMain] Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2017-11-24 10:15:00,371 INFO o.s.j.e.MBeanExporter [restartedMain] Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2017-11-24 10:15:00,371 INFO o.s.j.e.MBeanExporter [restartedMain] Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2017-11-24 10:15:00,371 INFO o.s.j.e.MBeanExporter [restartedMain] Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2017-11-24 10:15:00,371 INFO o.s.j.e.MBeanExporter [restartedMain] Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2017-11-24 10:15:00,371 INFO o.s.j.e.MBeanExporter [restartedMain] Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2017-11-24 10:15:00,387 INFO o.s.j.e.MBeanExporter [restartedMain] Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2017-11-24 10:15:00,387 INFO o.s.j.e.MBeanExporter [restartedMain] Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2017-11-24 10:15:00,387 INFO o.s.j.e.MBeanExporter [restartedMain] Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2017-11-24 10:15:00,387 INFO o.s.j.e.MBeanExporter [restartedMain] Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2017-11-24 10:15:00,387 INFO o.s.j.e.MBeanExporter [restartedMain] Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2017-11-24 10:15:00,387 INFO o.s.j.e.MBeanExporter [restartedMain] Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2017-11-24 10:15:00,387 INFO o.s.c.s.DefaultLifecycleProcessor$LifecycleGroup [restartedMain] Starting beans in phase 2147483647
+2017-11-24 10:15:00,387 INFO s.d.s.w.p.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2017-11-24 10:15:00,403 INFO s.d.s.w.p.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2017-11-24 10:15:00,456 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2017-11-24 10:15:00,637 INFO o.s.b.c.e.u.UndertowEmbeddedServletContainer [restartedMain] Undertow started on port(s) 6800 (http)
+2017-11-24 10:15:00,641 INFO o.s.b.StartupInfoLogger [restartedMain] Started TestApplication in 10.436 seconds (JVM running for 11.714)
+2017-11-24 10:47:18,958 ERROR o.s.b.b.PropertiesConfigurationFactory [restartedMain] Properties configuration failed validation
+2017-11-24 10:47:18,958 ERROR o.s.b.b.PropertiesConfigurationFactory [restartedMain] Field error in object 'spring.datasource.druid' on field 'filters': rejected value [stat,wall,log4j]; codes [methodInvocation.spring.datasource.druid.filters,methodInvocation.filters,methodInvocation.java.lang.String,methodInvocation]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [spring.datasource.druid.filters,filters]; arguments []; default message [filters]]; default message [Property 'filters' threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/log4j/Logger]
+2017-11-24 10:47:18,987 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Binding to target {
+	CreateTime:"2017-11-24 10:47:18",
+	ActiveCount:0,
+	PoolingCount:0,
+	CreateCount:0,
+	DestroyCount:0,
+	CloseCount:0,
+	ConnectCount:0,
+	Connections:[
+	]
+}
+
+[
+] failed:
+
+    Property: spring.datasource.druid.filters
+    Value: stat,wall,log4j
+    Reason: Property 'filters' threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/log4j/Logger
+
+
+Action:
+
+Update your application's configuration
+
+2017-11-24 11:08:28,708 ERROR o.s.b.b.PropertiesConfigurationFactory [restartedMain] Properties configuration failed validation
+2017-11-24 11:08:28,708 ERROR o.s.b.b.PropertiesConfigurationFactory [restartedMain] Field error in object 'spring.datasource.druid' on field 'filters': rejected value [stat,wall,log4j]; codes [methodInvocation.spring.datasource.druid.filters,methodInvocation.filters,methodInvocation.java.lang.String,methodInvocation]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [spring.datasource.druid.filters,filters]; arguments []; default message [filters]]; default message [Property 'filters' threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/log4j/Logger]
+2017-11-24 11:08:28,723 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Binding to target {
+	CreateTime:"2017-11-24 11:08:28",
+	ActiveCount:0,
+	PoolingCount:0,
+	CreateCount:0,
+	DestroyCount:0,
+	CloseCount:0,
+	ConnectCount:0,
+	Connections:[
+	]
+}
+
+[
+] failed:
+
+    Property: spring.datasource.druid.filters
+    Value: stat,wall,log4j
+    Reason: Property 'filters' threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/log4j/Logger
+
+
+Action:
+
+Update your application's configuration
+
+2017-11-24 11:11:12,338 ERROR o.s.b.b.PropertiesConfigurationFactory [restartedMain] Properties configuration failed validation
+2017-11-24 11:11:12,338 ERROR o.s.b.b.PropertiesConfigurationFactory [restartedMain] Field error in object 'spring.datasource.druid' on field 'filters': rejected value [stat,wall,log4j]; codes [methodInvocation.spring.datasource.druid.filters,methodInvocation.filters,methodInvocation.java.lang.String,methodInvocation]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [spring.datasource.druid.filters,filters]; arguments []; default message [filters]]; default message [Property 'filters' threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/log4j/Logger]
+2017-11-24 11:11:12,354 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Binding to target {
+	CreateTime:"2017-11-24 11:11:12",
+	ActiveCount:0,
+	PoolingCount:0,
+	CreateCount:0,
+	DestroyCount:0,
+	CloseCount:0,
+	ConnectCount:0,
+	Connections:[
+	]
+}
+
+[
+] failed:
+
+    Property: spring.datasource.druid.filters
+    Value: stat,wall,log4j
+    Reason: Property 'filters' threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/log4j/Logger
+
+
+Action:
+
+Update your application's configuration
+
+2017-11-24 11:26:10,294 ERROR o.s.b.b.PropertiesConfigurationFactory [restartedMain] Properties configuration failed validation
+2017-11-24 11:26:10,294 ERROR o.s.b.b.PropertiesConfigurationFactory [restartedMain] Field error in object 'spring.datasource.druid' on field 'filters': rejected value [stat,wall,log4j]; codes [methodInvocation.spring.datasource.druid.filters,methodInvocation.filters,methodInvocation.java.lang.String,methodInvocation]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [spring.datasource.druid.filters,filters]; arguments []; default message [filters]]; default message [Property 'filters' threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/log4j/Logger]
+2017-11-24 11:26:10,310 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Binding to target {
+	CreateTime:"2017-11-24 11:26:09",
+	ActiveCount:0,
+	PoolingCount:0,
+	CreateCount:0,
+	DestroyCount:0,
+	CloseCount:0,
+	ConnectCount:0,
+	Connections:[
+	]
+}
+
+[
+] failed:
+
+    Property: spring.datasource.druid.filters
+    Value: stat,wall,log4j
+    Reason: Property 'filters' threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/log4j/Logger
+
+
+Action:
+
+Update your application's configuration
+
+2017-11-24 11:33:55,413 ERROR o.s.b.b.PropertiesConfigurationFactory [restartedMain] Properties configuration failed validation
+2017-11-24 11:33:55,413 ERROR o.s.b.b.PropertiesConfigurationFactory [restartedMain] Field error in object 'spring.datasource.druid' on field 'filters': rejected value [stat,wall,log4j]; codes [methodInvocation.spring.datasource.druid.filters,methodInvocation.filters,methodInvocation.java.lang.String,methodInvocation]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [spring.datasource.druid.filters,filters]; arguments []; default message [filters]]; default message [Property 'filters' threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/log4j/Logger]
+2017-11-24 11:33:55,429 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Binding to target {
+	CreateTime:"2017-11-24 11:33:55",
+	ActiveCount:0,
+	PoolingCount:0,
+	CreateCount:0,
+	DestroyCount:0,
+	CloseCount:0,
+	ConnectCount:0,
+	Connections:[
+	]
+}
+
+[
+] failed:
+
+    Property: spring.datasource.druid.filters
+    Value: stat,wall,log4j
+    Reason: Property 'filters' threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/log4j/Logger
+
+
+Action:
+
+Update your application's configuration
+
+2017-11-24 11:55:33,208 ERROR o.s.b.b.PropertiesConfigurationFactory [restartedMain] Properties configuration failed validation
+2017-11-24 11:55:33,208 ERROR o.s.b.b.PropertiesConfigurationFactory [restartedMain] Field error in object 'spring.datasource' on field 'type': rejected value [com.alibaba.druid.pool.DruidDataSource]; codes [typeMismatch.spring.datasource.type,typeMismatch.type,typeMismatch.java.lang.Class,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [spring.datasource.type,type]; arguments []; default message [type]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Class' for property 'type'; nested exception is java.lang.IllegalArgumentException: Cannot find class [com.alibaba.druid.pool.DruidDataSource]]
+2017-11-24 11:55:33,224 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Binding to target org.springframework.boot.autoconfigure.jdbc.DataSourceProperties@28d6a786 failed:
+
+    Property: spring.datasource.type
+    Value: com.alibaba.druid.pool.DruidDataSource
+    Reason: Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Class' for property 'type'; nested exception is java.lang.IllegalArgumentException: Cannot find class [com.alibaba.druid.pool.DruidDataSource]
+
+
+Action:
+
+Update your application's configuration
+
+2017-11-24 12:38:46,830 ERROR o.s.b.b.PropertiesConfigurationFactory [restartedMain] Properties configuration failed validation
+2017-11-24 12:38:46,830 ERROR o.s.b.b.PropertiesConfigurationFactory [restartedMain] Field error in object 'spring.datasource.druid' on field 'filters': rejected value [stat,wall,log4j]; codes [methodInvocation.spring.datasource.druid.filters,methodInvocation.filters,methodInvocation.java.lang.String,methodInvocation]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [spring.datasource.druid.filters,filters]; arguments []; default message [filters]]; default message [Property 'filters' threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/log4j/Logger]
+2017-11-24 12:38:46,846 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Binding to target {
+	CreateTime:"2017-11-24 12:38:46",
+	ActiveCount:0,
+	PoolingCount:0,
+	CreateCount:0,
+	DestroyCount:0,
+	CloseCount:0,
+	ConnectCount:0,
+	Connections:[
+	]
+}
+
+[
+] failed:
+
+    Property: spring.datasource.druid.filters
+    Value: stat,wall,log4j
+    Reason: Property 'filters' threw exception; nested exception is java.lang.NoClassDefFoundError: org/apache/log4j/Logger
+
+
+Action:
+
+Update your application's configuration
+

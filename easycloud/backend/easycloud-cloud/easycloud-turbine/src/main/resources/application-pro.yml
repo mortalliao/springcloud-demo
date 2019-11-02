@@ -1,0 +1,27 @@
+
+server:
+  port: 8888
+
+security.basic.enabled: false
+
+# 将服务注册到eureka
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 5
+    leaseExpirationDurationInSeconds: 10
+    preferIpAddress: true
+  client:
+    lease:
+      duration: 5
+    healthcheck:
+      enabled: true
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/ # eureka注册路径
+
+# 聚合信息
+turbine:
+  aggregator:
+    clusterConfig: default
+  app-config: gzedu-research-point,gzedu-manage
+  cluster-name-expression: new String("default")
+  combine-host-port: true

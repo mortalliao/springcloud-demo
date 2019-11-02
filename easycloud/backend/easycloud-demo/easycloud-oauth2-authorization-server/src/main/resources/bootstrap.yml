@@ -1,0 +1,16 @@
+
+server:
+  port: 8000 # 端口
+
+spring:
+  application:
+    name: easycloud-admin
+
+  profiles:
+    active: dev
+
+#  cloud:
+#    config:
+#      profile: dev # 环境
+#      label: master # 版本分支
+#      uri: http://localhost:2222/ # 配置中心地址

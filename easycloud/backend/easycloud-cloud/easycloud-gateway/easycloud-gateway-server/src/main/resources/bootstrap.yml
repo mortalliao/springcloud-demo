@@ -1,0 +1,10 @@
+
+server:
+  port: 8866
+
+spring:
+  application:
+    name: easycloud-gateway
+
+  profiles:
+    active: dev

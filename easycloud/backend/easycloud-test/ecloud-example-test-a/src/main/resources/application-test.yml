@@ -1,0 +1,37 @@
+
+endpoints:
+  logfile:
+    enabled: true
+
+logging:
+  path: /log/ecloud-test/ecloud-test-a
+  config: classpath:logback.xml
+
+swagger:
+  enabled: true
+  title: ${spring.application.name}
+  description: 接口描述
+  url: http://172.16.146.184:${server.port}
+  author: 名字
+  version: 1.0
+
+eureka:
+  instance:
+    hostname: 172.16.146.184
+    leaseRenewalIntervalInSeconds: 5
+    leaseExpirationDurationInSeconds: 10
+    preferIpAddress: true
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname:localhost}:6688/eureka/
+
+spring:
+  datasource:
+    #schema: classpath:/database/ecloud-test-scheme.sql
+    #data: classpath:/database/ecloud-test-data.sql
+    url: jdbc:mysql://172.16.146.83:3306/DC_OPEN_TEACHER_SQ?useUnicode=true&characterEncoding=GBK&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: 789987
+    driverClassName: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    platform: mysql

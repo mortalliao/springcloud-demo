@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/easycloud-auth.iml" filepath="$PROJECT_DIR$/easycloud-auth.iml" group="easycloud-auth and modules" />
+      <module fileurl="file://$PROJECT_DIR$/easycloud-auth-client.iml" filepath="$PROJECT_DIR$/easycloud-auth-client.iml" group="easycloud-auth and modules" />
+      <module fileurl="file://$PROJECT_DIR$/easycloud-auth-common.iml" filepath="$PROJECT_DIR$/easycloud-auth-common.iml" group="easycloud-auth and modules" />
+      <module fileurl="file://$PROJECT_DIR$/easycloud-auth-server.iml" filepath="$PROJECT_DIR$/easycloud-auth-server.iml" group="easycloud-auth and modules" />
+      <module fileurl="file://$PROJECT_DIR$/easycloud-cloud.iml" filepath="$PROJECT_DIR$/easycloud-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easycloud-config.iml" filepath="$PROJECT_DIR$/easycloud-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easycloud-dashboard-monitor.iml" filepath="$PROJECT_DIR$/easycloud-dashboard-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easycloud-dashboard-tracer.iml" filepath="$PROJECT_DIR$/easycloud-dashboard-tracer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easycloud-gateway.iml" filepath="$PROJECT_DIR$/easycloud-gateway.iml" group="easycloud-gateway and modules" />
+      <module fileurl="file://$PROJECT_DIR$/easycloud-gateway-server.iml" filepath="$PROJECT_DIR$/easycloud-gateway-server.iml" group="easycloud-gateway and modules" />
+      <module fileurl="file://$PROJECT_DIR$/easycloud-registry.iml" filepath="$PROJECT_DIR$/easycloud-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easycloud-tracer.iml" filepath="$PROJECT_DIR$/easycloud-tracer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easycloud-turbine.iml" filepath="$PROJECT_DIR$/easycloud-turbine.iml" />
+    </modules>
+  </component>
+</project>

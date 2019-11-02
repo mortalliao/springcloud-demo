@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>win.mortalliao</groupId>
+    <artifactId>easycloud-cloud</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>easycloud-registry</module><!-- eureka 服务注册、治理 -->
+        <module>easycloud-config</module><!-- 配置文件管理 -->
+        <module>easycloud-gateway</module><!-- zuul 服务网关 -->
+        <module>easycloud-tracer</module><!-- sleuth 服务追踪 -->
+        <module>easycloud-dashboard-monitor</module><!-- 监控基于 Spring Boot 的应用 -->
+        <module>easycloud-dashboard-tracer</module><!-- 服务调用监控 -->
+        <module>easycloud-turbine</module>
+        <module>easycloud-auth</module>
+    </modules>
+
+    <profiles>
+        <profile>
+            <id>JDK-1.8</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+                <jdk>1.8</jdk>
+            </activation>
+            <properties>
+                <maven.compiler.source>1.8</maven.compiler.source>
+                <maven.compiler.target>1.8</maven.compiler.target>
+                <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
+            </properties>
+        </profile>
+    </profiles>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+
+        <!-- lombok -->
+        <lombok.version>1.16.18</lombok.version>
+        <!-- SpringBoot -->
+        <spring-boot-dependencies.version>1.5.8.RELEASE</spring-boot-dependencies.version>
+        <!-- SpringCloud -->
+        <spring-cloud-dependencies.version>Dalston.RELEASE</spring-cloud-dependencies.version>
+        <!-- mysql 驱动包 -->
+        <mysql-connector-java.version>5.1.34</mysql-connector-java.version>
+        <!-- Oracle 驱动包 -->
+        <oracle-ojdbc6.version>11.2.0.3.0</oracle-ojdbc6.version>
+        <!-- Mybatis Plus -->
+        <mybatis-plus.version>2.1.6</mybatis-plus.version>
+        <mybatisplus-spring-boot-starter.version>1.0.5</mybatisplus-spring-boot-starter.version>
+        <velocity.version>1.7</velocity.version>
+        <!-- 阿里druid 数据库连接池 -->
+        <druid-spring-boot-starter.version>1.1.5</druid-spring-boot-starter.version>
+        <!-- swagger -->
+        <springfox-swagger2.version>2.7.0</springfox-swagger2.version>
+        <springfox-swagger-ui.version>2.7.0</springfox-swagger-ui.version>
+        <swagger-bootstrap-ui.version>1.6</swagger-bootstrap-ui.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <!-- Import  dependency  management  from Spring  Boot -->
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot-dependencies.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- srpingcloud依赖 -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud-dependencies.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring-boot-dependencies.version}</version>
+                <configuration>
+                    <fork>true</fork>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

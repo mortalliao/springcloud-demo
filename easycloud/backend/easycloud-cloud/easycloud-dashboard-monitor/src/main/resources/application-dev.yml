@@ -1,0 +1,27 @@
+
+server:
+  port: 3333
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 5
+    leaseExpirationDurationInSeconds: 10
+    preferIpAddress: true
+  client:
+    lease:
+      duration: 5
+    healthcheck:
+      enabled: true
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+
+spring:
+  jackson:
+    serialization:
+      indent_output: true
+
+management:
+  security:
+    enabled: false
+
+info.version: 1.0
