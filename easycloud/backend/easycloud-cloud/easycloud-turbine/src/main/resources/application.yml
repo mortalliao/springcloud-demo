@@ -1,7 +1,0 @@
-
-spring:
-  application:
-    name: gzedu-server-turbine
-
-  profiles:
-    active: dev
